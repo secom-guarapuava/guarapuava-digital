@@ -5,6 +5,11 @@ on:
   schedule:
     - cron: '*/15 * * * *'     # a cada 15 minutos (UTC)
   workflow_dispatch:            # botão "Run workflow" para rodar na hora
+    inputs:
+      forcar:
+        description: 'Forçar atualização mesmo sem novidade (para testar)'
+        type: boolean
+        default: false
   push:
     paths:
       - 'scripts/fetch-noticias.mjs'
@@ -30,6 +35,8 @@ jobs:
 
       - name: Buscar notícias do feed
         run: node scripts/fetch-noticias.mjs
+        env:
+          FORCAR: ${{ github.event.inputs.forcar }}
 
       - name: Commitar se houver mudança
         run: |

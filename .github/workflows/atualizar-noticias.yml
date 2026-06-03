@@ -1,0 +1,45 @@
+name: Atualizar notícias
+
+# Atualiza o noticias.json automaticamente a partir do feed oficial da Prefeitura.
+on:
+  schedule:
+    - cron: '*/15 * * * *'     # a cada 15 minutos (UTC)
+  workflow_dispatch:            # botão "Run workflow" para rodar na hora
+  push:
+    paths:
+      - 'scripts/fetch-noticias.mjs'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-noticias
+  cancel-in-progress: true
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar o repositório
+        uses: actions/checkout@v4
+
+      - name: Preparar Node 20
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Buscar notícias do feed
+        run: node scripts/fetch-noticias.mjs
+
+      - name: Commitar se houver mudança
+        run: |
+          if [[ -n "$(git status --porcelain noticias.json)" ]]; then
+            git config user.name "guarapuava-bot"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add noticias.json
+            git commit -m "Atualiza notícias automaticamente"
+            git push
+            echo "Notícias atualizadas e publicadas."
+          else
+            echo "Nada novo no feed."
+          fi

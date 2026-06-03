@@ -1,0 +1,97 @@
+{
+  "fonte": "https://guarapuava.pr.gov.br/noticias/feed/",
+  "atualizado": "2026-06-03",
+  "observacao": "Gerado a partir do feed oficial. Para atualizar automaticamente, use o apps-script-noticias.gs (instruções no LEIA-ME).",
+  "noticias": [
+    {
+      "id": "n1",
+      "cat": "Meio ambiente",
+      "grad": ["#2F9E44", "#67C766"],
+      "titulo": "Trilha da Lua Cheia reúne participantes em experiência de conexão com a natureza no Parque das Araucárias",
+      "resumo": "Atividade integrou a programação do Junho Verde e proporcionou uma vivência noturna de educação ambiental em meio à natureza.",
+      "data": "02 jun 2026",
+      "url": "https://guarapuava.pr.gov.br/noticias/trilha-da-lua-cheia-reune-participantes-em-experiencia-de-conexao-com-a-natureza-no-parque-das-araucarias/",
+      "img": "https://guarapuava.pr.gov.br/wp-content/uploads/2026/06/IMG_7603.jpeg"
+    },
+    {
+      "id": "n2",
+      "cat": "Esporte",
+      "grad": ["#0E7C9C", "#33A9C8"],
+      "titulo": "Carreata homenageia atletas guarapuavanos campeões em competição internacional no Chile",
+      "resumo": "Jovens representaram a Seleção Brasileira em campeonato disputado entre os dias 26 e 30 de maio e foram recebidos com festa pela comunidade.",
+      "data": "02 jun 2026",
+      "url": "https://guarapuava.pr.gov.br/noticias/carreata-homenageia-atletas-guarapuavanos-campeoes-em-competicao-internacional-no-chile/",
+      "img": "https://guarapuava.pr.gov.br/wp-content/uploads/2026/06/WhatsApp-Image-2026-06-02-at-19.10.46.jpeg"
+    },
+    {
+      "id": "n3",
+      "cat": "Cidade",
+      "grad": ["#0E4FB8", "#2C7BF2"],
+      "titulo": "Confira como será o funcionamento dos serviços públicos durante o feriado de Corpus Christi",
+      "resumo": "Atendimentos administrativos serão suspensos na quinta (4) e sexta-feira (5), enquanto os serviços essenciais seguem mantidos para a população.",
+      "data": "02 jun 2026",
+      "url": "https://guarapuava.pr.gov.br/noticias/confira-como-sera-o-funcionamento-dos-servicos-publicos-durante-o-feriado-de-corpus-christi/",
+      "img": "https://guarapuava.pr.gov.br/wp-content/uploads/2026/06/IMG_8661.jpg"
+    },
+    {
+      "id": "n4",
+      "cat": "Economia",
+      "grad": ["#0E8C7A", "#3FB8A0"],
+      "titulo": "Quinta reunião do Plano Diretor discute diretrizes de crescimento industrial e desenvolvimento econômico de Guarapuava",
+      "resumo": "Representantes da FIEP e da Casa da Indústria contribuíram com sugestões para o planejamento da expansão industrial e o fortalecimento do desenvolvimento econômico do município.",
+      "data": "02 jun 2026",
+      "url": "https://guarapuava.pr.gov.br/noticias/quinta-reuniao-do-plano-diretor-reuniu-setor-produtivo-e-equipe-da-prefeitura-para-discutir-diretrizes-de-crescimento-industrial-atracao-de-investimentos-e-desenvolvimento-economico-sustentavel-de-gu/",
+      "img": "https://guarapuava.pr.gov.br/wp-content/uploads/2026/06/reuniao-plano-diretor-4.jpeg"
+    },
+    {
+      "id": "n5",
+      "cat": "Esporte",
+      "grad": ["#0E7C9C", "#33A9C8"],
+      "titulo": "Guarapuava se destaca no Paraná Bom de Bola e avança para a Macrorregional",
+      "resumo": "Sub-16 conquista o título de forma invicta e sem sofrer gols, enquanto o Sub-50 encerra a competição com o vice-campeonato; ambas representarão o município em agosto.",
+      "data": "01 jun 2026",
+      "url": "https://guarapuava.pr.gov.br/noticias/guarapuava-se-destaca-no-parana-bom-de-bola-e-avanca-para-a-macrorregional/",
+      "img": "https://guarapuava.pr.gov.br/wp-content/uploads/2026/06/parana-bom-de-bola-16-3-e1780345155660.jpeg"
+    },
+    {
+      "id": "n6",
+      "cat": "Meio ambiente",
+      "grad": ["#2F9E44", "#67C766"],
+      "titulo": "Junho Verde começa com blitz ambiental e mobiliza população para práticas sustentáveis",
+      "resumo": "Ação marcou o início oficial da campanha no município com orientações sobre descarte correto de resíduos e preservação ambiental.",
+      "data": "01 jun 2026",
+      "url": "https://guarapuava.pr.gov.br/noticias/junho-verde-comeca-com-blitz-ambiental-e-mobiliza-populacao-para-praticas-sustentaveis/",
+      "img": "https://guarapuava.pr.gov.br/wp-content/uploads/2026/06/IMG_9417-e1780338577439.jpg"
+    },
+    {
+      "id": "n7",
+      "cat": "Meio ambiente",
+      "grad": ["#2F9E44", "#67C766"],
+      "titulo": "Trilha da Lua Cheia está com as inscrições encerradas",
+      "resumo": "Com todas as vagas preenchidas, a atividade do Junho Verde reforça o interesse da população pelas ações de educação ambiental e contato com a natureza.",
+      "data": "01 jun 2026",
+      "url": "https://guarapuava.pr.gov.br/noticias/trilha-da-lua-cheia-esta-com-as-inscricoes-encerradas/",
+      "img": "https://guarapuava.pr.gov.br/wp-content/uploads/2026/05/IMG-20260529-WA0035.jpg"
+    },
+    {
+      "id": "n8",
+      "cat": "Cidade",
+      "grad": ["#0E4FB8", "#2C7BF2"],
+      "titulo": "Prefeitura de Guarapuava prorroga prazo do PREFIG até 30 de junho",
+      "resumo": "Programa oferece condições facilitadas para negociação de débitos tributários e não tributários, com descontos em juros e multas.",
+      "data": "01 jun 2026",
+      "url": "https://guarapuava.pr.gov.br/noticias/prefeitura-de-guarapuava-prorroga-prazo-do-prefig-ate-30-de-junho/",
+      "img": "https://guarapuava.pr.gov.br/wp-content/uploads/2026/05/WhatsApp-Image-2026-05-29-at-15.42.03.jpeg"
+    },
+    {
+      "id": "n9",
+      "cat": "Cidade",
+      "grad": ["#0E4FB8", "#2C7BF2"],
+      "titulo": "Campanha Maio Amarelo finaliza com ação educativa no Parque do Lago",
+      "resumo": "População acompanhou simulação de acidente de trânsito e conheceu o trabalho das equipes de atendimento e resgate.",
+      "data": "31 mai 2026",
+      "url": "https://guarapuava.pr.gov.br/noticias/campanha-maio-amarelo-finaliza-com-acao-educativa-no-parque-do-lago-neste-domingo-31/",
+      "img": "https://guarapuava.pr.gov.br/wp-content/uploads/2026/05/encerramento-maio-amarelo-16.jpg"
+    }
+  ]
+}
